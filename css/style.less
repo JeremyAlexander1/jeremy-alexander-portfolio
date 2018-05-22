@@ -1,0 +1,286 @@
+/*
+File Name: style.css
+Date: 04/28/18
+Programmer: jeremy alexander
+*/
+
+@import 'palette.less';
+@import "elements.less";
+
+/* MOBILE STYLESHEET */
+
+body, html {
+    font-size: 14px;
+    line-height: 1.5em;
+    height: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    h1 {
+        font-size: 42px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        color: @whiteAlternate;
+        padding-top: 2em;
+        line-height: 1em;
+    }
+    p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: @whiteAlternate;
+        padding-top: 1em;
+        line-height: 1.5em;
+        margin: 1em;
+    }
+}
+
+nav {
+        font-family: 'Roboto', sans-serif;
+    h3 {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .5em;
+        padding-bottom: .5em;
+    }
+}
+
+main {
+    a:link {
+        text-decoration: none;
+        color: @color2;
+    }
+    a:visited {
+        text-decoration: none;
+        color: @color1;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: @color3;
+    }
+    a:active {
+        text-decoration: underline;
+        color: @color7;
+    }
+    p {
+        font-family: 'PT Sans', sans-serif;
+        padding: .75em;
+        line-height: 1.5em;
+        a {
+        font-size: 16px; 
+        }
+    }
+    h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .75em;
+        padding-bottom: .75em;
+        line-height: 1.25em;
+    }
+    h3 {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        line-height: 1.25em;
+        a {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .5em;
+        padding-bottom: .5em;  
+        }
+    }
+    h4 {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    ul, li {
+        font-family: 'PT Sans', sans-serif;
+        margin: .5em;
+        padding-bottom: 1em;
+        line-height: 1.25em;
+    }
+}
+
+footer {
+    background-color: @color2;
+    color: @whiteAlternate;
+    font-size: 16px;
+    h2 {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .75em;
+        padding-bottom: .75em;
+        line-height: 1.25;
+    }
+    h3 {
+        font-size: 28px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        padding-top: .75em;
+        padding-bottom: .75em;
+    }
+    p {
+        font-family: 'PT Sans', sans-serif;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        line-height: 1.5em;
+        a {
+        font-size: 16px; 
+        }
+    }
+    a:link {
+        text-decoration: none;
+        color: @whiteAlternate;
+    }
+    a:visited {
+        text-decoration: none;
+        color: @color4;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: @color5;
+    }
+    a:active {
+        text-decoration: underline;
+        color: @color7;
+    }
+    ul, li, a {
+        font-family: 'PT Sans', sans-serif;
+        line-height: 1.25em;
+        color: @whiteAlternate;
+        font-size: 16px;
+        margin: .5em;
+    }
+    label {
+        width: 100%;
+    }
+}
+
+.carousel-inner {
+    max-height: 800px;
+}
+
+.form-color {
+    color: @darkAlternate;
+}
+
+.hero-image {
+    background-image: url(../images/log-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.highlight {
+    background-color: @color6;
+}
+
+.small-heading-img {
+    height: 9em;
+    width: 12em;
+}
+
+.thumbnail-image {
+    height: 20em;
+}
+
+#designed-by {
+    font-size: 12px;
+    padding: 2em;
+}
+
+#my-work {
+    color: @color2;
+}
+/*
+
+TABLET STYLESHEET
+
+The following CSS affects all screen sizes larger than 480 pixels wide.
+
+*/
+
+@media only screen and (min-width: 481px) {
+
+    body {
+        font-size: 16px;
+    }
+    
+    
+    header {
+        h1 {
+        font-size: 56px;
+    }
+        p {
+            font-size: 24px;
+        }
+}
+        
+    
+    main {
+        margin: 1em;        
+        h2, h3, h4 {
+            padding: 1em;
+            line-height: 1.25em;
+        }
+    ul, li {
+        padding-bottom: 1.5em;
+    }        
+    }
+    
+    footer {
+        font-size: 18px;
+        h3, h4 {
+            padding-top: 1.25em;
+            padding-bottom: 1.25em;
+        }
+    p {
+        a {
+        font-size: 18px; 
+        }
+    }        
+    }
+    
+    .thumbnail-image {
+    height: 25em;
+    }
+
+}
+
+/*
+
+DESKTOP STYLESHEET
+
+The following CSS affects all screen sizes larger than 1024 pixels wide.
+
+*/
+
+@media only screen and (min-width: 1025px) {
+    #container {
+        margin: 0 3em;
+    }
+    
+    header {
+        h1 {
+        font-size: 64px;
+        }
+    }
+    
+    main {
+        margin: 1.25em;
+    }
+    
+    .thumbnail-image {
+    height: 30em;
+    }
+
+}
