@@ -97,8 +97,8 @@
                 <h3>My Goals</h3>
                 <ul>
                     <li>Complete an internship by applying my classroom learnings in a real world environment.</li>
-                    <li>Network with peers and experts in web development and design communities.</li>
-                    <li>Graduate Summer of 2018.</li>                    
+                    <li>Graduate Summer of 2018.</li>   
+                    <li>Network with peers and experts in web development and design communities.</li>                 
                     <li>Work with small business owners, entrepreneurs, and individuals seeking to create an online presence in the form of websites.</li>                    
                 </ul>
                 <img src="images/goal-oriented.jpg" alt="goals">
@@ -107,23 +107,23 @@
         
         <section class="section group" id="my-work">    
             <h2>My Work</h2>
-            <section class="col span_6_of_12">
+            <section class="col span_4_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">Andrew Joseph Alexander</a></h3>
-                <p>Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redsigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/placeholder.png" alt="Andrew Joseph Alexander" class="thumbnail-image"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
+                <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redsigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
             </section>
-            <section class="col span_6_of_12">
+            <section class="col span_4_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-mock-website/">Burrito Masala</a></h3>
-                <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-mock-website/"><img src="images/placeholder.png" alt="Burrito Masala" class="thumbnail-image"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites//burrito-masala-mock-website/">*Desktop resolution. Click screenshot to visit Burrito Masala.</a></p>
+                <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
             </section>
-            <section class="col span_6_of_12">
+            <section class="col span_4_of_12">
                 <h3><a href="#">Night Owl Party Supplies</a></h3>
-                <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander</p>
                 <a href="#"><img src="images/placeholder.png" alt="asset 3" class="thumbnail-image"></a>
                 <p><a href="#">*Desktop resolution. Click screenshot to visit asset 3.</a></p>
+                <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander. Site coming soon.</p>
             </section>
         </section>
         
@@ -153,8 +153,7 @@
             <li data-target="#myCarousel" data-slide-to="5"></li> 
             <li data-target="#myCarousel" data-slide-to="6"></li>
             <li data-target="#myCarousel" data-slide-to="7"></li> 
-            <li data-target="#myCarousel" data-slide-to="8"></li>
-            <li data-target="#myCarousel" data-slide-to="9"></li>            
+            <li data-target="#myCarousel" data-slide-to="8"></li>          
             </ol>    
 
             <!-- Wrapper for slides -->
@@ -170,10 +169,6 @@
                 
             <div class="item">
             <img src="images/jeremy-alexander-headshot-3-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
-            </div>
-                
-            <div class="item">
-            <img src="images/jeremy-alexander-headshot-4-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
             </div>
                 
             <div class="item">
