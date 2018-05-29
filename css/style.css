@@ -167,8 +167,17 @@ footer a {
   font-size: 16px;
   margin: .5em;
 }
+footer input {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 footer label {
   width: 100%;
+  margin-bottom: .5em;
+}
+textarea {
+  max-width: 100%;
+  height: 200px;
 }
 .carousel-inner {
   max-height: 800px;
@@ -241,6 +250,11 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
   }
   footer p a {
     font-size: 18px;
+  }
+  textarea {
+    max-width: 100%;
+    width: 60%;
+    height: 200px;
   }
   .thumbnail-image {
     height: 25em;

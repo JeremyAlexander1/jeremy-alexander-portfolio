@@ -7,10 +7,11 @@ Programmer: Jeremy Alexander
 /* MOBILE STYLESHEET */
 
 .topnav {
-  overflow: hidden;
-  background-color: #f4f4f4;
-  position: fixed;
-  top: 0;    
+    overflow-y: scroll;
+    max-height: 100vh;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0;
 }
 
 .topnav a {
