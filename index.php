@@ -107,23 +107,31 @@
         
         <section class="section group" id="my-work">    
             <h2>My Work</h2>
-            <section class="col span_4_of_12">
+            <section class="col span_6_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">Andrew Joseph Alexander</a></h3>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
                 <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redsigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
             </section>
-            <section class="col span_4_of_12">
+            <section class="col span_6_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">Burrito Masala</a></h3>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/"><img src="images/mock-site-bm.png" alt="Burrito Masala"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">*Desktop resolution. Click screenshot to visit Burrito Masala.</a></p>
                 <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
             </section>
-            <section class="col span_4_of_12">
+        </section>
+        <section class="section group" id="my-work-2">    
+            <section class="col span_6_of_12">
                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">Night Owl Party Supplies</a></h3>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">*Desktop resolution. Click screenshot to visit Night Owl Party Supplies.</a></p>
                 <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander. Night Owl Party Supplies is a industrial design and install team who is committed to serve your gatherings, parties, special occasions, holidays, celebrations, and much more since 2011.</p>
+            </section>
+            <section class="col span_6_of_12">
+               <h3><a href="https://thealexandradesigns.com/group3/group3html/">Walk Albina's Black History</a></h3>
+                <a href="https://thealexandradesigns.com/group3/group3html/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History"></a>
+                <p><a href="https://thealexandradesigns.com/group3/group3html/">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
+                <p>Walk Albina's Black History was designed as a group project from CAS 285 - Capstone for Website Development/Design at <a href="https://www.pcc.edu/">PCC</a>. Walk Albina's Black History is a service learning project provided by Dr. Andrea Lowgren's HST 251 students of <a href="https://www.pcc.edu/">PCC</a>.</p>
             </section>
         </section>
         
