@@ -54,12 +54,12 @@
             <section class="col span_3_of_12">
                 <h3>Custom & Simple to Use Websites</h3>
                 <img src="images/networking.jpg" alt="networking" class="small-heading-img">
-                <p>I specialize in designing websites from the scratch. All finished products begin with an idea. My goal is to assist with the planning, designing, and exectution aspects of this process.</p>
+                <p>I specialize in designing websites from the scratch. All finished products begin with an idea. My goal is to assist with the planning, designing, and execution aspects of this process.</p>
             </section>
             <section class="col span_3_of_12">
                 <h3>Designing for Multiple Devices</h3>
                 <img src="images/devices.jpg" alt="cms" class="small-heading-img">
-                <p>It's a fact that over half of the internets overall traffic comes from mobile devices. I design interfaces that use media queries to create a mobile-first design with progressive enhancement to larger resolutions.</p>
+                <p>It's a fact that over half of the internet's overall traffic comes from mobile devices. I design interfaces that use media queries to create a mobile-first design with progressive enhancement to larger resolutions.</p>
             </section>
             <section class="col span_3_of_12">
                 <h3>Content Management Systems</h3>
@@ -75,7 +75,7 @@
             <section class="col span_4_of_12">
                 <h3>Skillset</h3>    
                 <ul>
-                    <li>Proficent in front end web development using HTML5, CSS3, LESS, and JavaScript.</li>
+                    <li>Proficient in front end web development using HTML5, CSS3, LESS, and JavaScript.</li>
                     <li>Ability to implement online marketing agendas, including SEO best practices.</li>
                     <li>Experience writing code for a content management system (CMS) such as WordPress.</li>
                     <li>Optimizing website content and styles for a mobile first design, using progressive enhancement for larger resolutions.</li>
@@ -111,7 +111,7 @@
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">Andrew Joseph Alexander</a></h3>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
-                <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redsigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
+                <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redesigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
             </section>
             <section class="col span_6_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">Burrito Masala</a></h3>
