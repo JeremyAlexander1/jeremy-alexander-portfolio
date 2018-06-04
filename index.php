@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-    <title>Jeremy Alexander - Web Designer</title>
-    <meta name="description" content="Jeremy Alexander, freelance web design based in Portland, Oregon.">  
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/reset.css"> 
-    <link rel="stylesheet" href="css/style.css"> 
-    <link rel="stylesheet" href="css/helper.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/navigation.css">
-    
-    <!-- Imported Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
-    
-     <!-- PHP header include -->
+    <!-- PHP header include -->
     <?php
         include 'includes/header.php';
     ?>
@@ -47,7 +23,7 @@
             } 
         </script>     
     </nav>
-    
+    <!-- Main content -->
     <main>
         <section class="section group" id="services">
             <h2>Services</h2>
@@ -79,8 +55,8 @@
                     <li>Ability to implement online marketing agendas, including SEO best practices.</li>
                     <li>Experience writing code for a content management system (CMS) such as WordPress.</li>
                     <li>Optimizing website content and styles for a mobile first design, using progressive enhancement for larger resolutions.</li>
-                    <li>Familiarity with Photoshop.</li>
-                    <li>Knowledge of PHP.</li>
+                    <li>Familiarity with Photoshop and image editing programs.</li>
+                    <li>Knowledge in PHP programming.</li>
                 </ul>
             </section>
             <section class="col span_4_of_12">
@@ -99,9 +75,8 @@
                     <li>Complete an internship by applying my classroom learnings in a real world environment.</li>
                     <li>Graduate Summer of 2018.</li>   
                     <li>Network with peers and experts in web development and design communities.</li>                 
-                    <li>Work with small business owners, entrepreneurs, and individuals seeking to create an online presence in the form of websites.</li>                    
+                    <li>To work with small businesses, entrepreneurs, and individuals seeking to create an online presence in the form of websites.</li>                    
                 </ul>
-                <img src="images/goal-oriented.jpg" alt="goals">
             </section>
         </section>
         
@@ -128,9 +103,9 @@
                 <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander. Night Owl Party Supplies is a industrial design and install team who is committed to serve your gatherings, parties, special occasions, holidays, celebrations, and much more since 2011.</p>
             </section>
             <section class="col span_6_of_12">
-               <h3><a href="https://thealexandradesigns.com/group3/group3html/">Walk Albina's Black History</a></h3>
-                <a href="https://thealexandradesigns.com/group3/group3html/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History"></a>
-                <p><a href="https://thealexandradesigns.com/group3/group3html/">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
+               <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">Walk Albina's Black History</a></h3>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History"></a>
+                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
                 <p>Walk Albina's Black History was designed as a group project from CAS 285 - Capstone for Website Development/Design at <a href="https://www.pcc.edu/">PCC</a>. Walk Albina's Black History is a service learning project provided by Dr. Andrea Lowgren's HST 251 students of <a href="https://www.pcc.edu/">PCC</a>.</p>
             </section>
         </section>
@@ -147,7 +122,7 @@
                 <img src="images/jeremy-alexander-headshot-close-up-1.jpg" alt="Jeremy Alexander head shot">
             </section>              
         </section>
-        
+        <!-- Image carousel -->
             <div class="container">
             <h3>Jeremy's Gallery</h3> 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -222,6 +197,3 @@
     <?php
         include 'includes/footer.php';    
     ?>
-    
-</body>
-</html>
