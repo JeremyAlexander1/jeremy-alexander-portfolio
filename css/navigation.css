@@ -12,6 +12,7 @@ Programmer: Jeremy Alexander
     background-color: #f4f4f4;
     position: fixed;
     top: 0;
+    z-index:2;
 }
 
 .topnav a {
@@ -113,7 +114,9 @@ Programmer: Jeremy Alexander
   .topnav {
   overflow: hidden;
   background-color: #f4f4f4;
-  position: relative; 
+  position: fixed;
+  top: 0;
+  width: 100%;
   }
     
   .topnav.responsive {position: relative;}
@@ -127,6 +130,11 @@ Programmer: Jeremy Alexander
     display: block;
     text-align: center;
   }
+    
+.topnav a {
+    padding: none;
+    width: 20%;
+}    
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {

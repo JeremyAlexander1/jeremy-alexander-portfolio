@@ -31,3 +31,6 @@
     ?>
     <p id="designed-by">Web Site Designed by Jeremy Alexander &copy;2018</p>        
     </footer>
+    
+</body>
+</html>
