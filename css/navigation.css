@@ -26,7 +26,7 @@ Programmer: Jeremy Alexander
 }
 
 .active {
-  background-color: #DAD38B;
+  background-color: #F0B072;
   color: #ffffff;
 }
 
@@ -69,7 +69,7 @@ Programmer: Jeremy Alexander
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #C2B78F;
+  background-color: #F0B072;
   color: white;
 }
 
