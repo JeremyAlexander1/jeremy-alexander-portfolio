@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <title>Jeremy Alexander - Web Designer</title>
-    <meta name="description" content="Jeremy Alexander, freelance web design based in Portland, Oregon.">  
+    <meta name="description" content="Jeremy Alexander, freelance web design based in Portland, Oregon.">
+    <meta http-equiv="refresh" content="10; url=index.php" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/reset.css"> 
     <link rel="stylesheet" href="css/style.css"> 
@@ -23,30 +24,12 @@
 <body>
     
      <!-- PHP header include -->
+    <section class="highlight-section">
+    <p>Thank you for your message! You can use the navigation to return to <a href="index.php">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
+    </section>
     <?php
         include 'includes/header.php';
     ?>
-    
-    <!-- Navigation -->
-    <nav class="topnav" id="myTopnav">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>    
-            <a href="index.php" class="active">Home</a>
-
-        <script>
-            function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-            x.className += " responsive";
-            } else {
-            x.className = "topnav";
-            }
-            } 
-        </script>     
-    </nav>
-    
-    <main>
-    <p>Thank you for your message! You can use the navigation to return to <a href="index.php" class="highlight">Jeremy Alexander's portfolio</a></p>
-    </main>
     
 </body>
 </html>

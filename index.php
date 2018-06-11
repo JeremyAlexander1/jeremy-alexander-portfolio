@@ -23,31 +23,57 @@
             } 
         </script>     
     </nav>
+
     <!-- Main content -->
     <main>
+        <!-- Scroll back to top Arrow -->
+        <a id="back2Top" title="Back to top" href="index.php">&#10148;</a>
+        <script>
+        /*Scroll to top when arrow up clicked BEGIN*/
+            $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                    $('#back2Top').fadeIn();
+            }   
+            else {
+                $('#back2Top').fadeOut();
+            }
+            });
+            $(document).ready(function() {
+            $("#back2Top").click(function(event) {
+                event.preventDefault();
+            $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+            });
+            /*Scroll to top when arrow up clicked END*/
+        </script>
+        
         <section class="section group" id="services">
             <h2>Services</h2>
             <section class="col span_3_of_12">
                 <h3>Custom & Simple to Use Websites</h3>
-                <img src="images/networking.jpg" alt="networking" class="small-heading-img">
+                <img src="images/networking.jpg" alt="Networking with clients and experts" class="small-heading-img">
                 <p>I specialize in designing websites from the scratch. All finished products begin with an idea. My goal is to assist with the planning, designing, and execution aspects of this process.</p>
             </section>
             <section class="col span_3_of_12">
                 <h3>Designing for Multiple Devices</h3>
-                <img src="images/devices.jpg" alt="cms" class="small-heading-img">
+                <img src="images/devices.jpg" alt="Designing for multiple devices" class="small-heading-img">
                 <p>It's a fact that over half of the internet's overall traffic comes from mobile devices. I design interfaces that use media queries to create a mobile-first design with progressive enhancement to larger resolutions.</p>
             </section>
             <section class="col span_3_of_12">
                 <h3>Content Management Systems</h3>
-                <img src="images/cms.jpg" alt="cms" class="small-heading-img">
-                <p>If you are new to the coding world or perhaps looking for a better way to manage content for your site, CMS allows you to edit your websites content in a more seamless manner. I can upload websites to a content management system (CMS) as requested. Example: WordPress.</p>
+                <img src="images/cms.jpg" alt="Content management systems" class="small-heading-img">
+                <p>Are you seeking a better way to manage content for your site? content management system (CMS) allows you to edit your websites content in a more seamless manner. Example: WordPress.</p>
             </section>
             <section class="col span_3_of_12">
                 <h3>Web Optimization and Marketing</h3>
-                <img src="images/seo.jpg" alt="seo" class="small-heading-img">
+                <img src="images/seo.jpg" alt="Search engine optimization" class="small-heading-img">
                 <p>I design websites to be optimized for search engine results. I can also help create and build a social media presence.</p>
             </section>
+        </section>
             
+        <section class="section group" id="services">
             <section class="col span_4_of_12">
                 <h3>Skillset</h3>    
                 <ul>
@@ -84,27 +110,27 @@
             <h2>My Work</h2>
             <section class="col span_6_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">Andrew Joseph Alexander</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander"></a>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander's website"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
                 <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redesigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
             </section>
             <section class="col span_6_of_12">
                 <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">Burrito Masala</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/"><img src="images/mock-site-bm.png" alt="Burrito Masala"></a>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/"><img src="images/mock-site-bm.png" alt="Burrito Masala website"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">*Desktop resolution. Click screenshot to visit Burrito Masala.</a></p>
                 <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
             </section>
         </section>
-        <section class="section group" id="my-work-2">    
+        <section class="section group" id="my-work">    
             <section class="col span_6_of_12">
                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">Night Owl Party Supplies</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies"></a>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies website"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">*Desktop resolution. Click screenshot to visit Night Owl Party Supplies.</a></p>
                 <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander. Night Owl Party Supplies is a industrial design and install team who is committed to serve your gatherings, parties, special occasions, holidays, celebrations, and much more since 2011.</p>
             </section>
             <section class="col span_6_of_12">
                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">Walk Albina's Black History</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History"></a>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History group3 website"></a>
                 <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
                 <p>Walk Albina's Black History was designed as a group project from CAS 285 - Capstone for Website Development/Design at <a href="https://www.pcc.edu/">PCC</a>. Walk Albina's Black History is a service learning project provided by Dr. Andrea Lowgren's HST 251 students of <a href="https://www.pcc.edu/">PCC</a>.</p>
             </section>
@@ -112,14 +138,14 @@
         
         <section class="section group" id="about-me">
             <h2>About Jeremy Alexander</h2>
-            <section class="col span_6_of_12">
+            <section class="col span_6_of_12" id="about-me-paragraph">
                 <p>I'm a student at Portland Community College, and I will be graduating by summer of 2018. My degree is in Associate of Applied Science, AAS majoring in Web Site Development & Design. My goal is to complete work for small businesses, freelance creators, or any individuals seeking to design a clear and concise web presence.</p>  
                 <p>When I'm not designing web sites, my hobbies include playing and watching sports, hiking, enjoying nature, and music production.</p>
-                <p>Jeremy Alexander, freelance web design based in Portland, Oregon.</p>
-                <a href="assets/resume_jeremy-alexander.pdf">Jeremy's PDF Resume</a>
+                <p>Jeremy Alexander, web designer based in Portland, Oregon.</p>
+                <p><a href="assets/resume_jeremy-alexander.pdf">View Jeremy's PDF Resume</a></p>
             </section>  
             <section class="col span_6_of_12">
-                <img src="images/jeremy-alexander-headshot-close-up-1.jpg" alt="Jeremy Alexander head shot">
+                <img src="images/jeremy-alexander-headshot-close-up-1.jpg" alt="Jeremy Alexander head shot resized">
             </section>              
         </section>
         <!-- Image carousel -->
@@ -135,27 +161,22 @@
             <li data-target="#myCarousel" data-slide-to="4"></li> 
             <li data-target="#myCarousel" data-slide-to="5"></li> 
             <li data-target="#myCarousel" data-slide-to="6"></li>
-            <li data-target="#myCarousel" data-slide-to="7"></li> 
-            <li data-target="#myCarousel" data-slide-to="8"></li>          
+            <li data-target="#myCarousel" data-slide-to="7"></li>         
             </ol>    
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 
             <div class="item active">
-            <img src="images/jeremy-alexander-headshot-1-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
+            <img src="images/jeremy-alexander-headshot-1-resize.jpg" alt="Jeremy Alexander Headshot original" style="width:100%;">
             </div>
 
             <div class="item">
-            <img src="images/jeremy-alexander-headshot-2-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
+            <img src="images/jeremy-alexander-headshot-2-resize.jpg" alt="Jeremy Alexander looking up" style="width:100%;">
             </div>
                 
             <div class="item">
-            <img src="images/jeremy-alexander-headshot-3-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
-            </div>
-                
-            <div class="item">
-            <img src="images/jeremy-alexander-headshot-4-black-white-resize.jpg" alt="Jeremy Alexander Headshot" style="width:100%;">
+            <img src="images/jeremy-alexander-headshot-4-black-white-resize.jpg" alt="Jeremy Alexander Headshot black and white" style="width:100%;">
             </div>
                     
             <div class="item">
@@ -163,19 +184,19 @@
             </div>      
                 
             <div class="item">
-            <img src="images/jeremy-nature-1.png" alt="Jeremy in the Forest" style="width:100%;">
+            <img src="images/jeremy-nature-1.png" alt="Jeremy looking at the landscape" style="width:100%;">
             </div>
                 
             <div class="item">
-            <img src="images/jeremy-nature-2.png" alt="Jeremy in the Forest" style="width:100%;">
+            <img src="images/jeremy-nature-2.png" alt="Jeremy standing in the Forest" style="width:100%;">
             </div>
                 
             <div class="item">
-            <img src="images/jeremy-nature-3.png" alt="Jeremy in the Forest" style="width:100%;">
+            <img src="images/jeremy-nature-3.png" alt="Jeremy walking out of focus" style="width:100%;">
             </div>
                 
             <div class="item">
-            <img src="images/jeremy-nature-4.png" alt="Jeremy in the Forest" style="width:100%;">
+            <img src="images/jeremy-nature-4.png" alt="Shadows walking in the Forest" style="width:100%;">
             </div>
                 
             </div>

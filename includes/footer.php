@@ -17,9 +17,6 @@
             <p>
             <a href="mailto:jmalexander29@gmail.com?Subject=Website-Inquiry" target="_top"><img src="images/mail-ui-icon.png" alt="e-mail"></a>
             </p>
-            <p>E-Mail:
-            <a href="mailto:jmalexander29@gmail.com?Subject=Website-Inquiry" target="_top">jmalexander29@gmail.com</a>    
-            </p>
             <p>Resume:
             <a href="assets/resume_jeremy-alexander.pdf">Jeremy's PDF Resume</a>
             </p>

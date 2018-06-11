@@ -83,8 +83,8 @@ main h2 {
   font-size: 36px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  padding-top: .75em;
-  padding-bottom: .75em;
+  padding-top: 1em;
+  margin-bottom: 1em;
   line-height: 1.25em;
 }
 main h3 {
@@ -109,7 +109,7 @@ main h4 {
 main ul,
 main li {
   font-family: 'PT Sans', sans-serif;
-  margin: .5em;
+  margin: 1em;
   list-style-type: disc;
   text-align: left;
 }
@@ -122,8 +122,7 @@ footer h2 {
   font-size: 36px;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
-  padding-top: .75em;
-  padding-bottom: .75em;
+  padding-top: 2.5em;
   line-height: 1.25;
 }
 footer h3 {
@@ -188,8 +187,8 @@ textarea {
   max-width: 100%;
   height: 200px;
 }
-.carousel-inner {
-  max-height: 800px;
+#about-me-paragraph {
+  text-align: left;
 }
 .form-color {
   color: #212414;
@@ -202,8 +201,9 @@ textarea {
   background-size: cover;
   position: relative;
 }
-.highlight {
+.highlight-section {
   background-color: #dad38b;
+  color: #a74949;
 }
 .small-heading-img {
   height: 9em;
@@ -218,6 +218,35 @@ textarea {
 }
 #my-work {
   color: #212414;
+  background-color: #fefff4;
+  border-color: #f0b072;
+  border-width: 1px;
+  border-style: dashed;
+}
+#back2Top {
+  width: 50px;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  background-color: #f0b072;
+  color: #555;
+  text-align: center;
+  font-size: 48px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #4993f8;
+  color: #000;
 }
 /*
 
@@ -236,18 +265,16 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
   header p {
     font-size: 24px;
   }
-  main {
-    margin: 1em;
-  }
   main h2,
   main h3,
   main h4 {
-    padding: 1em;
+    padding-top: 2em;
+    margin-bottom: 1em;
     line-height: 1.25em;
   }
   main ul,
   main li {
-    padding-bottom: 1.5em;
+    margin-bottom: 1em;
   }
   footer {
     font-size: 18px;
@@ -267,6 +294,9 @@ The following CSS affects all screen sizes larger than 480 pixels wide.
   }
   .thumbnail-image {
     height: 25em;
+  }
+  .carousel-inner {
+    max-height: 560px;
   }
 }
 /*
@@ -288,5 +318,8 @@ The following CSS affects all screen sizes larger than 1024 pixels wide.
   }
   .thumbnail-image {
     height: 30em;
+  }
+  .carousel-inner {
+    max-height: 600px;
   }
 }
