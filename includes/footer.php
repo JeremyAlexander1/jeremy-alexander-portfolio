@@ -10,7 +10,7 @@
         <section class="col span_6_of_12">
             <h3>Connect with Jeremy</h3>
             <ul>
-            <li><a href="https://www.linkedin.com/in/jeremy-alexander-2b9743108"><img src="images/linkedin-ui-icon.png" alt="linkedin"></a></li>
+            <li><a href="https://www.linkedin.com/in/jeremy-alexander"><img src="images/linkedin-ui-icon.png" alt="linkedin"></a></li>
             <li><a href="https://stackoverflow.com/users/9584042/jeremy-alexander"><img src="images/stackoverflow-ui-icon.png" alt="stack overflow"></a></li>           <li><a href="https://www.pinterest.com/jmalexander29/"><img src="images/pinterest-ui-icon.png" alt="pinterest"></a></li>
             <li><a href="https://github.com/JeremyAlexander1"><img src="images/GitHub-Mark-64px.png" alt="github"></a></li>    
             </ul>
