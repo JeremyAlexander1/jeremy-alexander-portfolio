@@ -25,7 +25,15 @@
     
      <!-- PHP header include -->
     <section class="highlight-section">
-    <p>Thank you for your message! You can use the navigation to return to <a href="index.php">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
+        <p>
+        Thank you for your message, <?php echo $_POST["name"]; ?>!
+        <br>
+        The email address you provided is: <?php echo $_POST["email"]; ?>
+        <br>
+        Your comment: <?php echo $_POST["comment"]; ?> has been sent!            
+        </p>
+        
+    <p>You can use the navigation to return to <a href="index.php">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
     </section>
     <?php
         include 'includes/header.php';

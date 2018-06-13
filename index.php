@@ -13,21 +13,23 @@
             <a href="#contact">Contact</a>
 
         <script>
-            function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-            x.className += " responsive";
+            document.getElementById("myTopnav").onclick = function(){
+         //   var x = document.getElementById("myTopnav");
+            if (this.className === "topnav") {
+            this.className += " responsive";
             } else {
-            x.className = "topnav";
+            this.className = "topnav";
             }
-            } 
-        </script>     
+            }
+        </script>
+        
     </nav>
 
     <!-- Main content -->
     <main>
         <!-- Scroll back to top Arrow -->
         <a id="back2Top" title="Back to top" href="index.php">&#10148;</a>
+        
         <script>
         /*Scroll to top when arrow up clicked BEGIN*/
             $(window).scroll(function() {
@@ -109,30 +111,30 @@
         <section class="section group" id="my-work">    
             <h2>My Work</h2>
             <section class="col span_6_of_12">
-                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">Andrew Joseph Alexander</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander's website"></a>
-                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
+                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/" target="_blank">Andrew Joseph Alexander</a></h3>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/" target="_blank"><img src="images/mock-site-aja.jpg" alt="Andrew Joseph Alexander's website"></a>
+                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/aja_final_web-site/" target="_blank">*Desktop resolution. Click screenshot to visit Andrew Joseph Alexander's website.</a></p>
                 <p>Andrew Joseph Alexander works on Video Editing, Cinematography, Music Videos, Short Films, VFX, Highlight Films, Commercials, Cover Art, and Multimedia Videos. I redesigned Andrew's website to be optimized as a mobile-first interface with progressive enhancements for larger resolution devices.</p>
             </section>
             <section class="col span_6_of_12">
-                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">Burrito Masala</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/"><img src="images/mock-site-bm.png" alt="Burrito Masala website"></a>
-                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/">*Desktop resolution. Click screenshot to visit Burrito Masala.</a></p>
+                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/" target="_blank">Burrito Masala</a></h3>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/" target="_blank"><img src="images/mock-site-bm.png" alt="Burrito Masala website"></a>
+                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/burrito-masala-web-site/" target="_blank">*Desktop resolution. Click screenshot to visit Burrito Masala.</a></p>
                 <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
             </section>
         </section>
         <section class="section group" id="my-work">    
             <section class="col span_6_of_12">
-               <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">Night Owl Party Supplies</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies website"></a>
-                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/">*Desktop resolution. Click screenshot to visit Night Owl Party Supplies.</a></p>
+               <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/" target="_blank">Night Owl Party Supplies</a></h3>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/" target="_blank"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies website"></a>
+                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/" target="_blank">*Desktop resolution. Click screenshot to visit Night Owl Party Supplies.</a></p>
                 <p>Night Owl Party Supplies is a fictional site designed by Jeremy Alexander. Night Owl Party Supplies is a industrial design and install team who is committed to serve your gatherings, parties, special occasions, holidays, celebrations, and much more since 2011.</p>
             </section>
             <section class="col span_6_of_12">
-               <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">Walk Albina's Black History</a></h3>
-                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History group3 website"></a>
-                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
-                <p>Walk Albina's Black History was designed as a group project from CAS 285 - Capstone for Website Development/Design at <a href="https://www.pcc.edu/">PCC</a>. Walk Albina's Black History is a service learning project provided by Dr. Andrea Lowgren's HST 251 students of <a href="https://www.pcc.edu/">PCC</a>.</p>
+               <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/" target="_blank">Walk Albina's Black History</a></h3>
+                <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/" target="_blank"><img src="images/albinas-black-history-walk-2018-cas285-group3.png" alt="Walk Albina's Black History group3 website"></a>
+                <p><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/walk-albina-cas285-group-site/" target="_blank">*Desktop resolution. Click screenshot to visit Walk Albina's Black History</a></p>
+                <p>Walk Albina's Black History was designed as a group project from CAS 285 - Capstone for Website Development/Design at <a href="https://www.pcc.edu/" target="_blank">PCC</a>. Walk Albina's Black History is a service learning project provided by Dr. Andrea Lowgren's HST 251 students of <a href="https://www.pcc.edu/" target="_blank">PCC</a>.</p>
             </section>
         </section>
         
@@ -142,7 +144,7 @@
                 <p>I'm a student at Portland Community College, and I will be graduating by summer of 2018. My degree is in Associate of Applied Science, AAS majoring in Web Site Development & Design. My goal is to complete work for small businesses, freelance creators, or any individuals seeking to design a clear and concise web presence.</p>  
                 <p>When I'm not designing web sites, my hobbies include playing and watching sports, hiking, enjoying nature, and music production.</p>
                 <p>Jeremy Alexander, web designer based in Portland, Oregon.</p>
-                <p><a href="assets/resume_jeremy-alexander.pdf">View Jeremy's PDF Resume</a></p>
+                <p><a href="assets/resume_jeremy-alexander.pdf" target="_blank">View Jeremy's PDF Resume</a></p>
             </section>  
             <section class="col span_6_of_12">
                 <img src="images/jeremy-alexander-headshot-close-up-1.jpg" alt="Jeremy Alexander head shot resized">
