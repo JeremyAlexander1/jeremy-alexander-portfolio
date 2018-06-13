@@ -27,7 +27,7 @@
     <?php 
         include 'includes/date-include.php';
     ?>
-    <p id="designed-by">Web Site Designed by Jeremy Alexander &copy;2018</p>        
+    <p id="designed-by">Website Designed by Jeremy Alexander &copy;2018</p>        
     </footer>
     
 </body>

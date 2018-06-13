@@ -75,9 +75,9 @@
             </section>
         </section>
             
-        <section class="section group" id="services">
+        <section class="section group" id="services-continued">
             <section class="col span_4_of_12">
-                <h3>Skillset</h3>    
+                <h3>Skill Set</h3>    
                 <ul>
                     <li>Proficient in front end web development using HTML5, CSS3, LESS, and JavaScript.</li>
                     <li>Ability to implement online marketing agendas, including SEO best practices.</li>
@@ -123,7 +123,7 @@
                 <p>Burrito Masala is a fictional food cart located in downtown Portland, Oregon on the corner of SW 3rd and Alder. Burrito Masala specializes in cooking delicious southern Indian (Kerala) and Mexican food. The cart offers options to build burritos or bowls, and you can pick your ingredients. This site was designed to showcase my portfolio of work.</p>
             </section>
         </section>
-        <section class="section group" id="my-work">    
+        <section class="section group" id="my-work-continued">    
             <section class="col span_6_of_12">
                <h3><a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/" target="_blank">Night Owl Party Supplies</a></h3>
                 <a href="http://jeremyalexander.webhostingforstudents.com/mock-sites/night-owl-party-supplies/" target="_blank"><img src="images/mock-site-nops.jpg" alt="Night Owl Party Supplies website"></a>
@@ -141,8 +141,8 @@
         <section class="section group" id="about-me">
             <h2>About Jeremy Alexander</h2>
             <section class="col span_6_of_12" id="about-me-paragraph">
-                <p>I'm a student at Portland Community College, and I will be graduating by summer of 2018. My degree is in Associate of Applied Science, AAS majoring in Web Site Development & Design. My goal is to complete work for small businesses, freelance creators, or any individuals seeking to design a clear and concise web presence.</p>  
-                <p>When I'm not designing web sites, my hobbies include playing and watching sports, hiking, enjoying nature, and music production.</p>
+                <p>I'm a student at Portland Community College, and I will be graduating by summer of 2018. My degree is in Associate of Applied Science, AAS majoring in Website Development & Design. My goal is to complete work for small businesses, freelance creators, or any individuals seeking to design a clear and concise web presence.</p>  
+                <p>When I'm not designing websites, my hobbies include playing and watching sports, hiking, enjoying nature, and music production.</p>
                 <p>Jeremy Alexander, web designer based in Portland, Oregon.</p>
                 <p><a href="assets/resume_jeremy-alexander.pdf" target="_blank">View Jeremy's PDF Resume</a></p>
             </section>  

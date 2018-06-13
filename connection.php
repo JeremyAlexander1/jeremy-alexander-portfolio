@@ -35,9 +35,9 @@
         
     <p>You can use the navigation to return to <a href="index.php">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
     </section>
-    <?php
-        include 'includes/header.php';
-    ?>
-    
+    <header class="hero-image">
+        <h1>Jeremy Alexander</h1>
+        <p>Web Designer based in Portland, OR.</p>
+    </header>
 </body>
 </html>
