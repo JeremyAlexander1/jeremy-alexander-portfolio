@@ -223,6 +223,13 @@ textarea {
   border-width: 1px;
   border-style: dashed;
 }
+#my-work-continued {
+  color: #212414;
+  background-color: #fefff4;
+  border-color: #f0b072;
+  border-width: 1px;
+  border-style: dashed;
+}
 #back2Top {
   width: 40px;
   line-height: 40px;
