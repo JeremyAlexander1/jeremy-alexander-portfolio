@@ -10,6 +10,7 @@ Programmer: Jeremy Alexander
     overflow-y: auto;
     max-height: 100vh;
     background-color: #f4f4f4;
+    opacity: .9;
     position: fixed;
     top: 0;
     z-index:2;
@@ -112,7 +113,7 @@ Programmer: Jeremy Alexander
 @media screen and (min-width: 600px) {
   .topnav {
   overflow: hidden;
-  background-color: #f4f4f4;
+  opacity: .9;
   position: fixed;
   top: 0;
   width: 100%;
@@ -120,5 +121,6 @@ Programmer: Jeremy Alexander
     
 .topnav a {
     width: 20%;
+    font-size: 24px;
     }    
 }
