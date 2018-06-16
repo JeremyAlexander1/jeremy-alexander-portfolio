@@ -21,10 +21,10 @@
         </section>
     </section>
     <!-- PHP date include for Los Angeles timezone -->
-    <p>(Los Angeles time zone)</p>
     <?php 
         include 'includes/date-include.php';
     ?>
+    <p>(Los Angeles time zone)</p>
     <p id="designed-by">Website Designed by Jeremy Alexander &copy;2018</p>        
     </footer>
     
