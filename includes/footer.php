@@ -18,12 +18,10 @@
             <p>
             <a href="mailto:jmalexander29@gmail.com?Subject=Website-Inquiry" target="_top"><img src="images/mail-ui-icon.png" alt="e-mail"></a>
             </p>
-            <p>Resume:
-            <a href="assets/resume_jeremy-alexander.pdf" target="_blank">Jeremy's PDF Resume</a>
-            </p>
         </section>
     </section>
     <!-- PHP date include for Los Angeles timezone -->
+    <p>(Los Angeles time zone)</p>
     <?php 
         include 'includes/date-include.php';
     ?>
