@@ -82,7 +82,7 @@ Programmer: Jeremy Alexander
     display: block;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
@@ -110,7 +110,7 @@ Programmer: Jeremy Alexander
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   .topnav {
   overflow: hidden;
   opacity: .9;
