@@ -57,7 +57,7 @@ if (!$mail->send()) {
 $dbhost = "localhost";
 $dbuser = "jeremyal_portfolio_user";
 $dbpass = "Beyondclouds29!";
-$dbname = "jeremyal_phpmailer_form";
+$dbname = "jeremyal_jeremy_alexander-admin-pnw";
 $users_name = $_POST['name'];
 $users_email = $_POST['email'];
 $users_comment = $_POST['comment'];
