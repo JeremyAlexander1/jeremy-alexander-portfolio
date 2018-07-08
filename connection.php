@@ -25,7 +25,7 @@
 <body>
     
      <!-- PHP header include -->
-    <section class="highlight-section">
+    <section class="mailer">
         <p>
         Thank you for your message, <?php echo $_POST["name"]; ?>!
         <br>
@@ -34,11 +34,13 @@
         Your comment: <?php echo $_POST["comment"]; ?> has been sent!            
         </p>
         
-    <p>You can use the navigation to return to <a href="index.php">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
+        <p>You can use the navigation to return to <a href="index.php" class="mailer-link">Jeremy Alexander's portfolio</a>. You will be redirected to Jeremy Alexander's Portfolio within 10 seconds of submit.</p>
     </section>
-    <header class="hero-image">
-        <h1>Jeremy Alexander</h1>
-        <p>Web Designer based in Portland, OR.</p>
-    </header>
+
+    <!-- PHP header include -->
+    <?php
+        include 'includes/header-noreply.php';
+    ?>    
+    
 </body>
 </html>

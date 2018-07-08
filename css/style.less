@@ -1,6 +1,17 @@
+/* 
+Theme Name: jeremy-alexander-portfolio-site    
+Template: jeremy-alexander-portfolio-site
+URI: http://jeremyalexander.webhostingforstudents.com/
+Author: Jeremy Alexander 
+Author URI: http://jeremyalexander.webhostingforstudents.com/ 
+Description: Jeremy Alexander Template 
+Version: 1.1 
+Tags: black, blue, gray, red, white, yellow, dark, light, HTML5, schema, structured data, schema markup, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready 
+*/
+
 /*
 File Name: style.css
-Date: 04/28/18
+Date: 07/07/18
 Programmer: jeremy alexander
 */
 
@@ -15,6 +26,7 @@ body, html {
     height: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    background-color: #fdfdfc;
 }
 
 header {
@@ -27,7 +39,7 @@ header {
         line-height: 1em;
     }
     p {
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'Roboto', sans-serif;
         color: @whiteAlternate;
         padding: 1.5em;
@@ -198,9 +210,16 @@ textarea {
     position: relative;
 }
 
-.highlight-section {
+.mailer {
     background-color: @color6;
     color: @color7;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+.mailer-link {
+    color: @color8;
+    font-size: 20px;
 }
 
 .small-heading-img {
@@ -255,7 +274,7 @@ textarea {
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: @color4;
+    background-color: @color6;
     color: #000;
 }
 #back2Top:active {
@@ -360,10 +379,6 @@ The following CSS affects all screen sizes larger than 1024 pixels wide.
     main {
         margin: 1.25em;
     }
-    
-    .hero-image {
-    height: 70%;
-}
     
     .thumbnail-image {
     height: 30em;
