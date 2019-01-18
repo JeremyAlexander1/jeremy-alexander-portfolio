@@ -56,7 +56,7 @@ if (!$mail->send()) {
 {*/
 $dbhost = "localhost";
 $dbuser = "jeremyal_portfolio_user";
-$dbpass = "Beyondclouds29!";
+$dbpass = "********";
 $dbname = "jeremyal_jeremy_alexander-admin-pnw";
 $users_name = $_POST['name'];
 $users_email = $_POST['email'];
